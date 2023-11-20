@@ -12,11 +12,26 @@ header{
 
 .flex-container0{
     display: flex;
-    gap: 20px;
+    justify-content: space-between;
     padding-block: 20px;
     padding-inline: 20px; 
     background-color: #7d95d9; 
 }
+
+ul{
+    display: flex; 
+    justify-content: space-around;
+}
+
+div ul li a{
+    text-align: center;
+}
+
+ul li{
+list-style-type: none;
+text-decoration: none;
+}
+
 
 .flex-container0 div{
     height: 40px;
